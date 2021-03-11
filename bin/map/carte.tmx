@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.1" orientation="orthogonal" renderorder="right-down" compressionlevel="-1" width="50" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="10">
+ <tileset firstgid="1" name="1" tilewidth="32" tileheight="32" tilecount="360" columns="15">
+  <image source="1.png" width="480" height="768"/>
+ </tileset>
+ <tileset firstgid="361" name="2" tilewidth="32" tileheight="32" tilecount="110" columns="10">
+  <image source="2.png" width="320" height="352"/>
+ </tileset>
+ <tileset firstgid="471" name="3" tilewidth="32" tileheight="32" tilecount="60" columns="15">
+  <image source="3.png" width="480" height="128"/>
+ </tileset>
+ <tileset firstgid="531" name="4" tilewidth="32" tileheight="32" tilecount="210" columns="15">
+  <image source="4.png" width="480" height="448"/>
+ </tileset>
+ <tileset firstgid="741" name="5" tilewidth="32" tileheight="32" tilecount="90" columns="9">
+  <image source="5.png" width="288" height="320"/>
+ </tileset>
+ <tileset firstgid="831" name="9" tilewidth="32" tileheight="32" tilecount="72" columns="9">
+  <image source="9.png" width="288" height="256"/>
+ </tileset>
+ <tileset firstgid="903" name="WaterAndFire (1)" tilewidth="32" tileheight="32" tilecount="48" columns="6">
+  <image source="WaterAndFire (1).png" width="192" height="256"/>
+ </tileset>
+ <tileset firstgid="951" name="collision-textures" tilewidth="32" tileheight="32" tilecount="25" columns="5">
+  <image source="collision-textures.png" width="160" height="160"/>
+ </tileset>
+ <tileset firstgid="976" name="hyptosis_til-art-batch-2" tilewidth="32" tileheight="32" tilecount="900" columns="30">
+  <image source="hyptosis_til-art-batch-2.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="1876" name="hyptosis_tile-art-batch-1" tilewidth="32" tileheight="32" tilecount="900" columns="30">
+  <image source="hyptosis_tile-art-batch-1.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="2776" name="hyptosis_tile-art-batch-3" tilewidth="32" tileheight="32" tilecount="900" columns="30">
+  <image source="hyptosis_tile-art-batch-3.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="3676" name="hyptosis_tile-art-batch-4" tilewidth="32" tileheight="32" tilecount="900" columns="30">
+  <image source="hyptosis_tile-art-batch-4.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="4576" name="signpost-outsidestuff" tilewidth="32" tileheight="32" tilecount="16" columns="4">
+  <image source="signpost-outsidestuff.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="4592" name="textures-01" tilewidth="32" tileheight="32" tilecount="108" columns="12">
+  <image source="textures-01.png" width="384" height="288"/>
+ </tileset>
+ <tileset firstgid="4700" name="textures-02" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="textures-02.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="4718" name="textures-03" tilewidth="32" tileheight="32" tilecount="42" columns="6">
+  <image source="textures-03.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="4760" name="textures-04" tilewidth="32" tileheight="32" tilecount="15" columns="3">
+  <image source="textures-04.png" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="4775" name="textures-05" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="textures-05.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="4793" name="textures-06" tilewidth="32" tileheight="32" tilecount="42" columns="6">
+  <image source="textures-06.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="4835" name="textures-07" tilewidth="32" tileheight="32" tilecount="18" columns="6">
+  <image source="textures-07.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="4853" name="tf_beach_tileA1" tilewidth="32" tileheight="32" tilecount="432" columns="24">
+  <image source="tf_beach_tileA1.png" width="768" height="576"/>
+ </tileset>
+ <layer id="6" name="water" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu2ZQQ6DIBBFWXfZE/aK3ahn6KkaFpOQKYg0MPAmvoSN0fg/f3BEQ1iL9/N3HJljcaxOTnNpUPDiQ/DoQ68XAl7WCEm/aNIaaR5KOlf20dIbVvUQuaKz1L+tfPSYa8ss/tWwZY7tDefO1j87i9b71Oo6p8einuT6kfN5pZ56ZjHqGWKRhUXtjoSuX9A6a2u0xucRXnF0F3pzMxHSmj5D9O9OfFDzKPVwErRel5Jq1fsBCuT3jhS6fuH2sRa61xE9ROg5CHrvSsVjHuRMNuWB6sNrXVG95HwQ68uDh8jZ904Sonnk/wYLvO8/aH603tJ/rtWh5yB4qasv1/jVdhAnAAA=
+  </data>
+ </layer>
+ <layer id="1" name="map" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu2XQW7DIBBF2VnyKatGafe9QnuQhpwjKt02R4iU3KOrYsVIaDqMMR47M4iR3iKSRf5jAGPbGWOFcvTAct2dR2ebywfiMtRBQLYSl4B2lwG4zrR6uEo8anCIe6HVIe6FdAcH0OIBc2PvO4lraio3VvDZRziU5KZqKwfu3Ft6lOSO7xjYXQOr9xXnOyc7lhkbe6q4esGZGYPqSe44X4UOpZkplyVz8Ty6YO8eeL/kzM3NaXSJfQKa7smXyAMCvUq/KX9687SFy9VzS7jsEn4SPQKvAJj/N9PlrV/fI14f3zO9AvvRJbVfzr1xPrsJ+N+fS7PC3HCOqXFS+3xwOXX/98/aWSlyPeDcY+dD6lzgyhrzAij1sMR/YGcDR9bc3HMcwvqizoUcP46sSxwoLyobd1YMCd9fHA5a7iA5PdDoYEH+mjw0OjQPeTQPWTQPWTQPWWCl0aV5yKJmD40utXtoc5kqLS61ePwB76awYBAnAAA=
+  </data>
+ </layer>
+ <layer id="7" name="waterfall" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3PuxGCUBQE0BsbUqFlqQh+sRirYhMaQAKec87Mpju7VQAAAPC/Tl3VObl06zu+hzpuNmilPvuvyfDDjz0Ys/+W3Bv/8cj+Z/Jq/Mc7+6fk0/gPAAAAAIDFDG3MSTIQJwAA
+  </data>
+ </layer>
+ <layer id="4" name="deco" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu2YSw7CIBRFO2pTEwfuw5W4GndialyBY2P9DFxGjStwA7oGIaYJQSifPniPyknupEa4Rypim7oompFpWU4saynl7PdaKHy7H4X+G4WDLtge2xHdQzuYPOTuvMut+qbvdma5sFwRHUQPsXNb6+95OR3LgeVucNhX6kDh0lmVF8uO5e24DjovX7d+vkqxt4yJib6vyee5cPOwiY2rLUNrYFof1bWYa+CDzkN2pNjdBggPCshrkkpvEdX3h3JfHaF+g2Ij9k/Zg5O6xxTuJw6WB/TZEGsdhs5PEMFwMb3u0iuGh+rcF2Oe0OOnurfEuo8fiX4+MtgeyznMONgeKyAPbKA8sPePqXhAgeHRlfBj5vWgBQUPiA6YZ3jK49nO6Tovtf8fYifX91DjHzxcr2MyFQ+O6tmZjx82sodp36HsIT+bTd2D4vOpTCaTydjzATyg+RwQJwAA
+  </data>
+ </layer>
+ <layer id="5" name="houses" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu2XTQ7BUBRGr0QHGDSxAJbgdyChO/A/kJQdYIJBdYBVYCFiIdgBG3ETT1qd0aavV76TnMmbvO/kjR4RAACAqFjkiZbKVV73mt9xePta6Qru2PD2rXInuAOAOGgaRC3WMnQv+Y4J7234tNmx4Z3bQnpc3jny6Rif546QjjjpZTwl4++Q2lLi3eWAFYEtbd7cCdgV2DHlzbOAc4EdIB7wf0kWSfi/VE2iGls39dwfFX3eP2CHwjuSiJt+KZl3g/SWPW8/KI+CO06+tzgL7rjw9qvyJrgDABCOe5bokdW9IgJyRKmc7hHhKXBD8Q86Wtxg/UEHAAAAEDdP4aHI1hAnAAA=
+  </data>
+ </layer>
+ <layer id="8" name="toit" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3WsQmAQAxA0bM8l3AS59VJXEQHUZHAlYKIRN6D9PlVUgoAAHBH15cy16+3eOZsGI5Zat6WaBiP2WrelmgI0ZJN2xC2hB0A8KYp6b/SOhvWet35zC1rs7ufBQAAAP5pB6JaD9YQJwAA
+  </data>
+ </layer>
+ <layer id="9" name="deco_house" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu3SwQ2CQBAF0DnAARK1HhqgBUuQRrQutCG1ABIn8cIdkhV5L/nZ6/+ZjQAAAGAtYxNxzzxmYSPa73PJmw2Zri1bZ6lrbrhlzrlj8g8BgB/0rCJemXdVuskyhzrimDnVpZusq/+zPQAAwH58AD7mX4oQJwAA
+  </data>
+ </layer>
+ <layer id="10" name="tree" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu2X0QrCMAxF+zj2uA9T//8DVMT54PwA44MoYiBZ0vSW5UJhsLGmueeuaymp1jpOpZxonKfWlfCS1HilezONG/A6JDXe6d5C4wG8DkmNPXAlUQ9cSdQDV0hKfrGU/G5bmUcsZR7XaTeWsqdxGG3vyTzUl6bHyHlA7rFGyD1O9aPL8LmeB/65rSj3Eizld85HiFyvqUnKdeR612RNynVkjmtmzfJujZeInL+l8bK275azl8bL72ct3kT4Kp3D4k1EnqVzWDIZsS//ztEy255zc/5ErM+TP46BCMal/Fl6ivTvqe0p6j6o7WmeY/qQF2+tufXiLZLbfz3z4q0Gt5zHmp615uQlrl5NzxC+bx4ee3PyBMDueSQQJwAA
+  </data>
+ </layer>
+ <layer id="11" name="leaves" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACu2XSQ7DMAhFfYbe/0ad53HR9iRlU8mqQgIOJt8qT2IVD8R8wE4Jk/kspQXZcsaP2dK3Hdm+Z8zUSHw807cL2RX4PyQ+SmLWAi3oSkILukIi9ItF6Pe/iXzEIvJxWiIf6qM5Y+R8QD5jDchnHAStEr0Ei6nr3Ir2XZNtgM6xxKcDjT2SnQbmeP6v1KecG429kz0G5pSsXYrUp5wnjX2RvQfmlKxditQn77U1NRkxX79oarKVfmucx29N7tsj1++Y3uqRz3175Pod01s98lm6x5jeWrNWcHtwOvPIect7IaczD41b3gs5nXloXKpdSdw4LXtoXIo2bqh9UFtzPO9xNfG8x9WEywkrvXm+v7t8ttKb5/u7y2dOb9o41Xh/czHu8pnTG0Jd4GKs6RsIdcEixki9MrDnAwZUjYcQJwAA
+  </data>
+ </layer>
+ <layer id="3" name="logic" width="50" height="50" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAACt2Y6wnDMAyEC+n+6wTSlTpEyY+CCbalk06ykoNCaWLpPj8k0317vXbSJ0LaHFX9Sx7bZx6ODPXyXD1YOEa5otg0HL3fLfOOvPt96/wj+XrrwYg708nhYZmdj7so+2w+Vaz5W70W2txSfVnNMRJS5ysxVL8zRPm2cniZWXcCJA6rnzDnkMXhzXU03z/EOWFKin90ns9YmD7btWHEWlVjtHtM44vNwT6r1+faGFYvbTzrOLRWaDiy9pbkh1FTK6gyC7ruPd9ZHEgvZOaI8IpwaGoR04PX/8wPypDB0XrzrrdlTMa+RvwwdWw53k8xaqr2LGnGaGOP8nhk4fDG7sWPWvfocyExIDml+WrzsZXF4Xn3/z7Sy1iKqBXSGISDWVuYY6M4suXdV0yus1ci/7W0uaM4PHvDkrvSOff2SO99gSUmx3Wt0FirxLyXPIVjpTI4WDHR+y6b5Y4cq/bliEPyw+h/7H5lYWF4qMBRTT8jHZeMECcAAA==
+  </data>
+ </layer>
+</map>
